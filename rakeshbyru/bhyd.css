@@ -1,0 +1,428 @@
+body{
+ box-sizing: border-box;
+}
+.clearflex{
+    clear: both;
+    display: table;
+}
+.logo img{
+  width: 100% ;
+  height: 20px;
+}
+header{
+    width: 100%;
+    height: 50px;  
+    position: sticky;
+    top:0px;
+    background-color: white;
+}
+.info{
+    width: 100%;
+    height: 10px;
+    color: rgb(221, 24, 24);
+    font-size: 15px;
+    display: inline;
+    color: white;
+    border-radius: 5px;
+}
+
+.contact ul li{
+    display: inline;
+    padding: 4px 8px 5px 0px;
+}
+.contact{
+    width: 70%;
+    height:50px;
+   background-color: green;
+    float: left;
+    padding-top: 15px;
+  
+}
+.media ul li {
+    display: inline-block;
+    padding-top: 15px;
+    margin-left: 20px;
+}
+   
+.media{
+    width:30%;
+    height: 50px;
+    background-color: green;
+    float: left;
+    color: white;
+}
+.media ul li:hover{
+    color: yellowgreen;
+    cursor: pointer;
+}
+.logo2{
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+.logo1 a:hover {
+   color: blue;
+}
+
+.whatsapp p{
+  width: 150px;
+  height: 50px;
+  background-color: green;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  position: fixed;
+  top: 75%;
+  left: 10px;
+  z-index: 1;
+  cursor: pointer;
+}
+.telegram{
+  width: 70px;
+  height: 70px;
+  background-color:lightskyblue;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+  border-radius:50%;
+  color:white;
+  position: fixed;
+  top: 80%;
+  left: 93%;
+  z-index: 1;
+  cursor: pointer;
+}
+
+
+
+.courses1{
+  text-align: center;
+  background-color: darkgrey;
+  overflow: hidden;
+ 
+}
+.courses1 figcaption{
+  padding: 10px;
+  text-align: center;
+  background-color:azure;
+  font-size: 15px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: medium;
+  border-radius: 2px;
+}
+.courses1 img{
+  border: 1px solid whitesmoke;
+transition: all 0.75s;
+border-radius: 2px;
+}
+.courses1 img:hover{
+  cursor: pointer;
+   transform: scale(1.1, 1.1 );
+}
+
+.register1{
+
+  text-align: center;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px grey;
+  justify-content: center;
+  background-color: aliceblue;
+}
+.register1 h3{
+  border: 2px solid;
+  font-size: 20px;
+  padding:  10px;
+  border-radius: 8px;
+  font-family:  sans-serif;
+  color: black;
+  text-align: center;
+  background-color: green;
+}
+.register1 input:hover{
+  background-color: aqua;
+  cursor: pointer;
+}
+.sb :hover{
+  background-color: aqua ;
+  cursor: pointer;
+}
+.register1 input{
+  padding:  15px;
+  
+  margin: 6px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid black;
+}
+.register1 textarea{
+  padding:  15px; 
+}
+.sb input{
+  padding:  15px 80px;
+  background-color: red;
+  color: black;
+}
+.hyd3{
+  background-color: bisque;
+}
+.hyd3 p{
+  font-family:Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+
+.our{
+  text-align: center;
+  align-items: center;
+}
+.our h1{
+  color: red;
+  font-family:serif;
+  padding: 20px 0px px 0px;
+}
+.our span{
+  color: black;
+}
+.tabletwo{
+  background-color: lightgoldenrodyellow;
+}
+  
+table.table{
+   border: 2px solid;
+   height: 80px;
+}
+table tr th td{
+  border: 2px solid;
+}
+.table1 h1{
+  color: red;
+  font-size: 30px;
+  text-align: center;
+}
+  thead.hello th{
+    background-color:lightslategrey;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .training3{
+    background-color:darkgray;
+  }
+
+.modes .teaching{
+  width: 200px;
+  height: 320px;
+ background-color:azure;
+ padding: 5px;
+ margin: 5px;
+ font-family: sans-serif;
+ text-align: center;
+ word-spacing: 3px;
+ box-shadow: 0px 0px 5px 1px gray;
+ border-radius: 8px;
+}
+.modes img{
+  background-size: cover;
+  border-radius: 5px;
+}
+.modes p{
+  font-size: 13px;
+}
+.teaching h5{
+  font-size: 16px;
+  padding: 6px;
+  font-weight: 20px;
+  color: cornflowerblue;
+}
+
+
+
+
+
+  
+  .choose{
+     word-spacing: 2px;
+    text-align: center;
+  }
+  .choose h1{
+    text-align: center;
+    color: blue;
+    font-family: serif;
+    font-size: 30px;
+  }
+  .choose span{
+    color: black;
+  }
+  .choose h4{
+    color: brown;
+    font-size: 20px;
+    font-family: Times, serif;
+    padding-bottom: 10px;
+    
+  }
+  .choose p{
+    text-align: start;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .about{
+    border-top: 1px solid;
+  }
+  .bgpic{
+    background-image: url(https://img.freepik.com/free-photo/education-concept-books-laptop-library_1150-10586.jpg?size=626&ext=jpg&ga=GA1.1.360902796.1699609251&semt=ais);
+    justify-items: center;
+    box-sizing: border-box;
+  }
+  .bg img{
+    background-color: aliceblue;
+    border: none;
+    background-color: none;
+    justify-content: center;
+     overflow: hidden ;
+     border-image: round;
+     mix-blend-mode: darken;
+  }
+  .bg h1{
+    color: yellow;
+    text-align: center;
+    font-size: 25px;
+  }
+    
+  .bg p {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  .feedback{
+    background-color: blueviolet;
+    top: 0;
+    z-index: 1px;
+    display: flex;
+  }
+  .student h1{
+    
+    font-size: 26px;
+    text-align: center;
+    padding-top: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  .student p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+
+
+  .placement1{
+    padding-top: 60px;
+    width: 100%;
+    height:100% ;
+    animation-duration: inherit;
+    background-color:darkgray;
+   
+    
+  }
+  .place img{
+    width: 70%;
+    height: 90%;
+    box-shadow: 5px 2px 15px 2px teal;
+    border-radius: 8px 8px;
+  }
+  .place h1{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .p1 .container-fluid .placement1 .place{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+  }
+  .our img{
+    mix-blend-mode:darken;
+    text-align: center;
+    border-radius: 6px 6px;
+    background-size: cover;
+  }
+  .our h5{
+      font-size: 20px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-align: center;
+  }
+  .our h2{
+    font-size: 30px;
+    color:darkred;
+  }
+  .our{
+    background-color: azure;
+  }
+  .placed  p{
+    font-size: 25px;
+    text-align: center;
+    font-family:serif;
+    border-radius: 5px 5px;
+    padding: 5px;
+  }
+  .placed{
+    background-color:dimgray;
+    text-align: center;
+  }
+  .placed h1{
+    font-size: 30px;
+    color:blanchedalmond;
+    font-family:serif;
+  }
+  .placed span{
+    color:black;
+  }
+  .footer1{
+   
+    background-color: rgb(43, 172, 43);
+    font-weight: 40px;
+    color: whitesmoke;
+    word-spacing: 2px ;
+  }
+  .footer1 a{
+    display: block;
+    padding: 6px;
+    color: brown;
+  }
+  .footer1 a:hover{
+    color: blue;
+  }
+  .footer1 p{
+    font-family:monospace;
+    font-size: 16px;
+  }
+  .footer1 i{
+    font-size: 20px;
+   
+  }
+  .media2 i{
+   color:aliceblue;
+    background-color:rgb(43, 172, 43)e;
+    font-size: 25px;
+  border-radius: 50%;
+  }
+  .footer1 i:hover{
+    color: yellow;
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+  }
+  .footer2{
+    background-color: green;
+    color: white;
+    font-family:sans-serif;
+  }
+  .footer2 a:hover{
+    color: rgb(12, 12, 241);
+    cursor: pointer;
+  }
+   
+  
+  
+    
